@@ -1,0 +1,64 @@
+/* Portrait layout (default) */
+#saumyaX {
+	text-transform:none;
+	
+    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    position:absolute;             /* position in the center of the screen */
+    left:50%;
+    top:50%;
+    height:50px;                   /* text area height */
+    width:225px;                   /* text area width */
+    text-align:center;
+    padding:180px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+                                   /* offset horizontal: half of text area width */
+}
+
+#button_record {
+	min-width: 200px;
+	min-height: 200px;
+    max-width: 200px;
+    max-height: 200px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    /*background:url(../img/mic_200.png) no-repeat center top;*/ /* 170px x 200px */
+    /*background-color: #FF0000;*/
+    text-align: center;
+
+    padding: 0px 0px 0px 0px;
+    margin: -100px 0px 0px -100px;
+}
+
+.button_not_recording {
+    background:url(../img/mic_200_grey.png) no-repeat center top; 
+}
+
+.button_recording {
+    background:url(../img/mic_200_red.png) no-repeat center top; 
+}
+
+#saumya{
+
+}
+#info{
+    position: absolute;
+
+    min-width: 400px;
+    min-height: 200px;
+    max-width: 400px;
+    max-height: 200px;
+
+    left: 50%;
+    top: 90%;
+
+    padding: 0px 0px 0px 0px;
+    margin: -100px 0px 0px -200px;
+
+    font-size: 24px;
+    text-align: center;
+    text-transform:none;
+    
+}
